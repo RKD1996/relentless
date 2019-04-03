@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+@import url('https://fonts.googleapis.com/css?family=Spectral|Spectral+SC');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+// .bdr{
+//   border: 1px solid red;
+// font-family: 'Spectral SC', serif;
+// font-family: 'Spectral', serif;
+// }
+
+
+*{
+  font-family: 'ZCOOL XiaoWei', serif !important;
+}
+// body{
+//   position: relative;
+// }
+.bdr-b{
+  border: 1px solid lightgrey;
+}
+.fas{
+  font-family: "Font Awesome 5 Free" !important;
+}
+.mt-1{
+  margin-top: 10px;
+}
+.navbar{
+  z-index: 100;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 55px;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  .navtabs{
+    flex-basis: 20%;
+    font-size: 20px;
+    .nav-img{
+      height: 70px;
+      width: 75px;
+      position: relative;
+      top: 0;
+          box-shadow: 2px 3px 8px -3px rgba(0,0,0,0.9);
+    }
+    a{
+      color: black;
+      font-family: 'Acme', sans-serif !important;
+      &:hover{
+        text-decoration: underline;
+        border-color: #28c5ff;
+      }
+    }
+  }
+  .hidden-nav{
+    display: none;
+    @media (max-width: 767px){
+      display: block;
+    }
+    position: absolute;
+    text-align: right;
+    right: 10px;
+    top: 15px;
+    i{
+          font-family: 'Material Icons' !important;
+    }
+    ul{
+      display: none;
+      position: relative;
+      background-color: #f5f5f5;
+      top: -5px;
+      width: 145px;
+      right: -10px;
+      padding: 5px 5px 5px 0px;
+      transition: .6s;
+      a{
+        color: black;
+        font-size: 17px;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.center{
+  text-align: center;
+  padding: 11px 0px;
+}
+.right{
+  text-align: right;
+  position: relative;
+  padding: 13px 20px;
+  @media (min-width: 768px){
+    display: block;
+  }
+  display: none;
+}
+.light-bdr{
+  border-right: 5px solid lightgrey;
+  padding-right: 10px;
+  &:hover{
+    border-color: #0ebaf9;
+  }
+}
+.parallex-container1, .parallex-container2, .parallex-container3{
+  position: relative;
+  .parallax{
+    background-image: url("https://3ozxuk3equ8uk744atar6415-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/collaboration.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 600px;
+    @media(max-width: 399px){
+      height: 265px;
+    }
+    @media(min-width: 700px) and (max-width: 800px){
+      height: 545px;
+    }
+    @media(min-width: 400px) and (max-width: 600px){
+      height: 380px;
+    }
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    .parallax-text{
+      position: absolute;
+      text-align: center;
+      top: 240px;
+      right: 45px;
+      color: black;
+      @media (max-width: 399px){
+        top: 95px;
+        width: 198px;
+        right: 30px;
+      }
+      @media(min-width: 700px) and (max-width: 800px){
+        right: 190px;
+      }
+      @media(min-width: 400px) and (max-width: 600px){
+        top: 168px;
+        right: 25px;
+      }
+      .parallax-text-title{
+        font-size: 55px;
+        font-weight: bold;
+        @media(max-width: 399px){
+          font-size: 28px;
+        }
+        @media(min-width: 400px) and (max-width: 600px){
+          font-size: 35px;
+        }
+      }
+      .parallax-text-desc{
+        font-size: 20px;
+        margin-bottom: 15px;
+        @media(max-width: 399px){
+          font-size: 17px;
+        }
+        @media(min-width: 400px) and (max-width: 600px){
+          font-size: 19px;
+        }
+      }
+    }
+  }
+}
+.content{
+  margin: 100px auto;
+  width: 95%;
+  display: block;
+  h5{
+    font-family: 'Spectral SC', serif !important;
+  }
+  p{
+    font-family: 'Spectral', serif !important;
+  }
+  .content-head{
+    font-family: 'Spectral SC', serif !important;
+    margin-left: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    @media (max-width: 399px){
+      font-size: 28px;
+    }
+  }
+  .col-5{
+    padding: 25px;
+    width: 40%;
+    display: inline-block;
+    margin: 0px;
+    img{
+      width: 100%;
+    }
+  }
+  .col-8{
+    padding: 25px;
+    margin: 0px;
+    float: right;
+    display: inline-block;
+    width: 60%;
+    @media (max-width: 800px){
+      padding: 5px 5px 5px 35px !important;
+    }
+  }
+  .team-content{
+    text-align: center;
+    background-color: white;
+    position: relative;
+    @media (min-width: 800px){
+      width: 32.33% !important;
+      margin-left: 9px !important;
+    }
+    @media (max-width: 399px){
+      margin: 5px;
+    }
+    @media(min-width: 400px) and (max-width: 600px){
+      margin: 5px;
+    }
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    span{
+      border: 5px solid grey;
+      position: absolute;
+      top: -77px;
+      left: 15px;
+      height: 120px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      @media (max-width: 399px){
+        position: initial;
+        display: inline-block;
+      }
+      @media(min-width: 400px) and (max-width: 600px){
+        position: initial;
+        display: inline-block;
+      }
+      .team-img{
+        border: 5px solid lightgrey;
+      }
+    }
+    p{
+      text-align: right;
+      padding-top: 10px;
+    }
+    div{
+      margin-top: 10px;
+      text-align: right;
+      @media (max-width: 399px){
+        text-align: center;
+      }
+      @media(min-width: 400px) and (max-width: 600px){
+        text-align: center;
+      }
+    }
+  }
+}
+.parallex-container2{
+  .parallax{
+    background-image: url("https://526c26b9d9216af54d49-0f611ed2047a5f4ed4d46c810e6c9e1f.ssl.cf1.rackcdn.com/15495331803781535608259401fjord9841301920.jpeg");
+    height: 265px;
+    .parallax-text{
+      top: 73px;
+      right: 75px;
+      @media (max-width: 399px){
+        top: 60px;
+        right: 84px;
+      }
+      @media(min-width: 700px) and (max-width: 800px){
+        right: 13px;
+      }
+      @media(min-width: 400px) and (max-width: 600px){
+        top: 85px;
+        right: 30px;
+      }
+      .parallax-text-title{
+        @media(min-width: 700px) and (max-width: 800px){
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+.parallex-container3{
+  .parallax{
+    background-image: url("./assests/How-to-Get-More-Productivity-From-a-Larger-Team-1180x664.jpg");
+    height: 500px;
+    .parallax-text{
+      top: 332px;
+      left: 0px;
+      @media (max-width: 399px){
+        top: 60px;
+        right: 84px;
+      }
+      @media(min-width: 700px) and (max-width: 800px){
+        top: 188px;
+        left: -290px;
+      }
+      @media(min-width: 400px) and (max-width: 600px){
+        top: 85px;
+        right: 30px;
+      }
+      .parallax-text-title{
+        @media(min-width: 700px) and (max-width: 800px){
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+.footer{
+  border-top: 1px solid lightgrey;
+  padding: 20px 0px;
+  position: absolute;
+   bottom: 0;
+    width: 100%;
+  .row{
+    margin: 0px;
+    .footer-links{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      div{
+        margin: 0px 10px;
+        a{
+          color: white;
+        }
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.carousel{
+  img{
+    width: 250px !important;
+  }
+}
+.content-slot{
+  padding: 10px 0px;
+  p{
+    padding: 0px 30px;
+    text-align: justify;
+    @media(min-width: 300px) and (max-width: 600px){
+      padding: 0px 10px;
+    }
+  }
+  .mission-text{
+    padding: 0px 30px;
+    text-align: justify;
+  }
+  .belif-text{
+    padding: 0px 30px;
+    text-align: justify;
+  }
+  .value-slot{
+    padding: 0px 30px;
+    text-align: justify;
+    .col{
+      img{
+        height: 200px;
+        width: 100%;
+      }
+    }
+  }
+}
+.hover-card{
+  &:hover{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+
+border-radius: 5px; }
+}
+.team-slot{
+  padding: 0px 30px;
+  text-align: justify;
+}
+.content-brand{
+  padding: 0px 20px;
+  text-align: center;
+  .brand-img{
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+  }
+  .brand-text{
+    background-color: lightgrey;
+    padding: 10px 0px;
+    font-weight: bold;
+  }
+}
+.content-contact{
+  padding: 0px 40px;
+}
+form{
+  padding-top: 0px;
+  .email-input, .query-input, .no-input{
+    border: 1px solid lightgrey  !important;
+    border-radius: 5px !important;
+    padding-left: 5px !important;
+  }
+  .query-input{
+    height: 200px;
+    width: 101%;
+  }
+  .btn-submit{
+    background-color: #47bae4;
+    border: 1px solid #47bae4;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+  }
+}
+.gallery-content{
+  padding:  10px 10px;
+  div{
+    img{
+      height: 175px !important;
+      width: 100% !important;
+    }
+  }
+}
