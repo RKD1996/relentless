@@ -17,6 +17,12 @@ $(document).ready(function(){
     console.log('works')
     $('.hidden-nav > ul').slideToggle();
   });
+  $(window).scroll(function(){
+    var a = $(window).scrollTop();
+    if(a > 500){
+      $('.navbar')css({'background-color': 'black', 'boxbox-shadow': '0px 4px 8px 0px rgba(0,0,0,0.2)'});
+    }
+  });
 });
 // autoplay()
 // function autoplay() {
