@@ -214,6 +214,14 @@
   }
 }
 
+.home-content-slot {
+  padding: 20px 30px;
+}
+
+.home-content-slot p {
+  text-align: justify;
+}
+
 .content {
   margin: 100px auto;
   width: 100%;
