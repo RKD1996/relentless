@@ -27,8 +27,7 @@
   top: 0;
   height: 55px;
   flex-direction: row;
-  background-color: white;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
 }
 
 .navbar .navtabs {
@@ -45,7 +44,7 @@
 }
 
 .navbar .navtabs a {
-  color: black;
+  color: white;
   font-family: 'Acme', sans-serif !important;
 }
 
@@ -70,6 +69,7 @@
 
 .navbar .hidden-nav i {
   font-family: 'Material Icons' !important;
+  color: white;
 }
 
 .navbar .hidden-nav ul {
@@ -216,54 +216,47 @@
 
 .content {
   margin: 100px auto;
-  width: 95%;
+  width: 100%;
   display: block;
 }
 
-.content h5 {
-  font-family: 'Spectral SC', serif !important;
+.content .col {
+  padding: 0px !important;
 }
 
-.content p {
-  font-family: 'Spectral', serif !important;
-}
-
-.content .content-head {
-  font-family: 'Spectral SC', serif !important;
-  margin-left: 12px;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-@media (max-width: 399px) {
-  .content .content-head {
-    font-size: 28px;
-  }
-}
-
-.content .col-5 {
-  padding: 25px;
-  width: 40%;
-  display: inline-block;
-  margin: 0px;
-}
-
-.content .col-5 img {
+.content img {
+  opacity: 0.6;
+  height: 310px;
   width: 100%;
 }
 
-.content .col-8 {
-  padding: 25px;
-  margin: 0px;
-  float: right;
-  display: inline-block;
-  width: 60%;
+.content .home {
+  position: relative;
 }
 
-@media (max-width: 800px) {
-  .content .col-8 {
-    padding: 5px 5px 5px 35px !important;
-  }
+.content .home .home-content {
+  position: absolute;
+  top: 40px;
+  padding: 30px;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content .home .home-content h5 {
+  font-family: 'Spectral SC', serif !important;
+}
+
+.content .home .home-content p {
+  font-family: 'Spectral', serif !important;
+}
+
+.content .home .home-content .info {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
 }
 
 .content .team-content {
@@ -379,31 +372,31 @@
 
 .parallex-container3 .parallax {
   background-image: url("./assests/How-to-Get-More-Productivity-From-a-Larger-Team-1180x664.jpg");
-  height: 500px;
+  height: 540px;
 }
 
 .parallex-container3 .parallax .parallax-text {
-  top: 332px;
-  left: 0px;
+  top: 405px;
+  right: 385px;
 }
 
 @media (max-width: 399px) {
   .parallex-container3 .parallax .parallax-text {
-    top: 60px;
+    top: 304px;
     right: 84px;
   }
 }
 
 @media (min-width: 700px) and (max-width: 800px) {
   .parallex-container3 .parallax .parallax-text {
-    top: 188px;
-    left: -290px;
+    top: 340px;
+    right: 260px;
   }
 }
 
 @media (min-width: 400px) and (max-width: 600px) {
   .parallex-container3 .parallax .parallax-text {
-    top: 85px;
+    top: 250px;
     right: 30px;
   }
 }

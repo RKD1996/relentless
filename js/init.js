@@ -20,7 +20,10 @@ $(document).ready(function(){
   $(window).scroll(function(){
     var a = $(window).scrollTop();
     if(a > 500){
-      $('.navbar')css({'background-color': 'black', 'boxbox-shadow': '0px 4px 8px 0px rgba(0,0,0,0.2)'});
+      $('.navbar').css({'background-color': 'black', 'boxbox-shadow': '0px 4px 8px 0px rgba(0,0,0,0.2)'});
+    }
+    if(a < 300){
+      $('.navbar').css({'background-color': 'transparent', 'boxbox-shadow': 'none'});
     }
   });
 });
