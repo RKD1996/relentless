@@ -107,10 +107,10 @@
     border-color: #0ebaf9;
   }
 }
-.parallex-container1, .parallex-container2, .parallex-container3{
+.parallex-container2{
   position: relative;
   .parallax{
-    background-image: url("https://3ozxuk3equ8uk744atar6415-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/collaboration.jpg");
+    background-image: url("https://526c26b9d9216af54d49-0f611ed2047a5f4ed4d46c810e6c9e1f.ssl.cf1.rackcdn.com/15495331803781535608259401fjord9841301920.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 600px;
@@ -286,33 +286,7 @@
     }
   }
 }
-.parallex-container3{
-  .parallax{
-    background-image: url("./assests/How-to-Get-More-Productivity-From-a-Larger-Team-1180x664.jpg");
-    height: 540px;
-    .parallax-text{
-      top: 405px;
-      right: 385px;
-      @media (max-width: 399px){
-        top: 304px;
-        right: 84px;
-      }
-      @media(min-width: 700px) and (max-width: 800px){
-        top: 340px;
-        right: 260px;
-      }
-      @media(min-width: 400px) and (max-width: 600px){
-        top: 250px;
-        right: 30px;
-      }
-      .parallax-text-title{
-        @media(min-width: 700px) and (max-width: 800px){
-          font-size: 40px;
-        }
-      }
-    }
-  }
-}
+
 .footer{
   border-top: 1px solid lightgrey;
   padding: 20px 0px;
@@ -405,7 +379,7 @@ form{
     padding-left: 5px !important;
   }
   .query-input{
-    height: 200px;
+    height: 155px;
     width: 101%;
   }
   .btn-submit{
@@ -424,4 +398,130 @@ form{
       width: 100% !important;
     }
   }
+}
+
+.parallex-container{
+    position: relative;
+    .parallax-text{
+      position: absolute;
+      text-align: center;
+      top: 240px;
+      right: 45px;
+      color: black;
+      @media (max-width: 399px){
+        top: 40px;
+        width: 198px;
+        right: 59px;
+      }
+      @media(min-width: 700px) and (max-width: 800px){
+        right: 10px;
+      }
+      @media(min-width: 400px) and (max-width: 600px){
+        top: 38px;
+        width: 155px;
+        right: 25px;
+      }
+      .parallax-text-title{
+        font-size: 55px;
+        font-weight: bold;
+        @media(max-width: 399px){
+          font-size: 28px;
+        }
+        @media(min-width: 400px) and (max-width: 600px){
+          font-size: 35px;
+        }
+      }
+      .parallax-text-desc{
+        font-size: 20px;
+        margin-bottom: 15px;
+        @media(max-width: 399px){
+          font-size: 17px;
+        }
+        @media(min-width: 400px) and (max-width: 600px){
+          font-size: 19px;
+        }
+      }
+    }
+    .parallax-text2{
+      position: absolute;
+      text-align: center;
+      top: 540px;
+      right: 645px;
+      color: black;
+      @media (max-width: 399px){
+        top: 95px;
+        right: 75px;
+      }
+      @media(min-width: 808px) and (max-width: 1100px){
+        top: 273px;
+        right: 380px;
+      }
+      @media(min-width: 700px) and (max-width: 800px){
+        top: 200px;
+        right: 255px;
+      }
+      @media(min-width: 400px) and (max-width: 600px){
+        top: 105px;
+        right: 84px;
+      }
+      .parallax-text-title{
+        font-size: 55px;
+        font-weight: bold;
+        @media(max-width: 399px){
+          font-size: 28px;
+        }
+        @media(min-width: 400px) and (max-width: 600px){
+          font-size: 35px;
+        }
+      }
+      .parallax-text-desc{
+        font-size: 20px;
+        margin-bottom: 15px;
+        @media(max-width: 399px){
+          font-size: 17px;
+        }
+        @media(min-width: 400px) and (max-width: 600px){
+          font-size: 19px;
+        }
+      }
+    }
+    .parallax-text3{
+      position: absolute;
+      text-align: center;
+      top: 240px;
+      right: 745px;
+      color: black;
+      @media (max-width: 399px){
+        top: 95px;
+        right: 151px  ;
+      }
+      @media(min-width: 700px) and (max-width: 800px){
+        right: 355px;
+        top: 136px;;
+      }
+      @media(min-width: 400px) and (max-width: 600px){
+        top: 68px;
+        right: 165px;
+      }
+      .parallax-text-title{
+        font-size: 55px;
+        font-weight: bold;
+        @media(max-width: 399px){
+          font-size: 28px;
+        }
+        @media(min-width: 400px) and (max-width: 600px){
+          font-size: 35px;
+        }
+      }
+      .parallax-text-desc{
+        font-size: 20px;
+        margin-bottom: 15px;
+        @media(max-width: 399px){
+          font-size: 17px;
+        }
+        @media(min-width: 400px) and (max-width: 600px){
+          font-size: 19px;
+        }
+      }
+    }
 }
