@@ -27,6 +27,7 @@ $(document).ready(function(){
     }
   });
 });
+//AIzaSyAR66kMcP3mI3frUS-gqs6MMYlkF0vu7kk map api code
 // autoplay()
 // function autoplay() {
 //     $('.carousel').carousel('next');
