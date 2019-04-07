@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
 @import url('https://fonts.googleapis.com/css?family=Spectral|Spectral+SC');
 @import url('https://fonts.googleapis.com/css?family=Acme');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 // .bdr{
 //   border: 1px solid red;
 // font-family: 'Spectral SC', serif;
@@ -12,7 +13,7 @@
 
 
 *{
-  font-family: 'ZCOOL XiaoWei', serif !important;
+  font-family: 'Open Sans', sans-serif;
 }
 // body{
 //   position: relative;
@@ -169,9 +170,12 @@
 }
 
 .home-content-slot{
-  padding: 20px 30px;
+  padding: 20px 356px;
+  h3{
+    text-align: center; 
+  }
   p{
-    text-align: justify;
+    text-align: center;
   }
 }
 .content{
@@ -267,6 +271,7 @@
     .parallax-text{
       top: 73px;
       right: 75px;
+      color: white;
       @media (max-width: 399px){
         top: 60px;
         right: 84px;
@@ -407,7 +412,7 @@ form{
       text-align: center;
       top: 240px;
       right: 45px;
-      color: black;
+      color: white;
       @media (max-width: 399px){
         top: 40px;
         width: 198px;
@@ -447,7 +452,7 @@ form{
       text-align: center;
       top: 540px;
       right: 645px;
-      color: black;
+      color: white;
       @media (max-width: 399px){
         top: 95px;
         right: 75px;
@@ -490,7 +495,7 @@ form{
       text-align: center;
       top: 240px;
       right: 745px;
-      color: black;
+      color: white;
       @media (max-width: 399px){
         top: 95px;
         right: 151px  ;

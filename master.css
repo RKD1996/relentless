@@ -3,8 +3,10 @@
 @import url("https://fonts.googleapis.com/css?family=Black+Ops+One");
 @import url("https://fonts.googleapis.com/css?family=Spectral|Spectral+SC");
 @import url("https://fonts.googleapis.com/css?family=Acme");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 * {
-  font-family: 'ZCOOL XiaoWei', serif !important;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .bdr-b {
@@ -215,11 +217,15 @@
 }
 
 .home-content-slot {
-  padding: 20px 30px;
+  padding: 20px 356px;
+}
+
+.home-content-slot h3 {
+  text-align: center;
 }
 
 .home-content-slot p {
-  text-align: justify;
+  text-align: center;
 }
 
 .content {
@@ -350,6 +356,7 @@
 .parallex-container2 .parallax .parallax-text {
   top: 73px;
   right: 75px;
+  color: white;
 }
 
 @media (max-width: 399px) {
@@ -519,7 +526,7 @@ form .btn-submit {
   text-align: center;
   top: 240px;
   right: 45px;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 399px) {
@@ -583,7 +590,7 @@ form .btn-submit {
   text-align: center;
   top: 540px;
   right: 645px;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 399px) {
@@ -653,7 +660,7 @@ form .btn-submit {
   text-align: center;
   top: 240px;
   right: 745px;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 399px) {
