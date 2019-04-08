@@ -220,6 +220,12 @@
   padding: 20px 356px;
 }
 
+@media (max-width: 1100px) {
+  .home-content-slot {
+    padding: 20px 8px;
+  }
+}
+
 .home-content-slot h3 {
   text-align: center;
 }
@@ -239,8 +245,7 @@
 }
 
 .content img {
-  opacity: 0.6;
-  height: 310px;
+  height: 400px;
   width: 100%;
 }
 
@@ -253,7 +258,7 @@
   top: 40px;
   padding: 30px;
   width: 100%;
-  color: black;
+  color: white;
   text-align: center;
   font-weight: bold;
 }
@@ -496,7 +501,7 @@ form .email-input, form .query-input, form .no-input {
 }
 
 form .query-input {
-  height: 155px;
+  height: 145px;
   width: 101%;
 }
 
@@ -504,7 +509,8 @@ form .btn-submit {
   background-color: #47bae4;
   border: 1px solid #47bae4;
   border-radius: 5px;
-  padding: 8px;
+  padding: 8px 9px;
+  margin-bottom: 10px;
   color: white;
 }
 
@@ -513,7 +519,7 @@ form .btn-submit {
 }
 
 .gallery-content div img {
-  height: 175px !important;
+  height: 230px !important;
   width: 100% !important;
 }
 
